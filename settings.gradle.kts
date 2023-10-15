@@ -11,5 +11,9 @@ pluginManagement {
     includeBuild("build-logic")
 }
 
+plugins {
+    id("toolchain-resolver")
+}
+
 rootProject.name = "toolchains"
 include("app")
